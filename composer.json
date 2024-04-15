@@ -2,12 +2,12 @@
     "name": "oex/interview-chess",
     "type": "project",
     "autoload": {
-        "psr-0": {
-            "": "src"
+        "psr-4": {
+            "ChessInterview\\": "src/"
         }
     },
     "require": {
-        "phpunit/phpunit": "8.5.19",
+        "phpunit/phpunit": "^9.0",
         "phpunit/php-token-stream": "3.1.3"
     }
 }
